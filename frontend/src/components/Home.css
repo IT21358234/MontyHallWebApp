@@ -1,0 +1,115 @@
+.home {
+    padding: 0 50px;
+    height: 100vh;
+}
+
+h1.title {
+    text-align: center;
+    font-family: Audiowide;
+}
+
+div.title {
+    font-size: 36px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 0 #000, -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000;
+    padding: 10px;
+}
+
+div.flex-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 100px;
+}
+
+input {
+    font-size: 16px;
+    padding: 10px;
+    font-family: Play;
+    font-weight: 700;
+    border-radius: 10px;
+    border: 2px solid #2c62e0;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    padding: 8px 25px;
+    border-radius: 15px;
+    border: 2px solid #2c62e0;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2c62e0;
+    color: white;
+}
+
+select {
+    font-size: 16px;
+    padding: 10px;
+    font-family: Play;
+    font-weight: 700;
+    border-radius: 10px;
+    width: 51%;
+    border: 2px solid #2c62e0;
+    cursor: pointer;
+}
+
+select:focus {
+    outline: none;
+}
+
+div.door {
+    width: 120px;
+    height: 180px;
+    background-color: rgb(44, 98, 224, 0.55);
+    padding: 20px;
+    align-items: end;
+    display: flex;
+    position: relative;
+    border-radius: 20px;
+}
+
+img.door {
+    width: 120px;
+    height: auto;
+}
+
+span.door {
+    position: absolute;
+    bottom: -25px;
+    color: #2c62e0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+span.won-lost {
+    position: absolute;
+    bottom: -80px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+span.skip {
+    position: absolute;
+    bottom: -170px;
+}
+
+table {
+    border: 2px solid #2c62e0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 2px solid #2c62e0;
+    text-align: left;
+    padding: 8px;
+}
